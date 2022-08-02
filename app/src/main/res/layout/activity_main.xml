@@ -9,10 +9,12 @@
     <Button
         android:id="@+id/btnOneTimeRequest"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_margin="16dp"
         android:text="One time request"
         android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -22,7 +24,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:textSize="16sp"
+        android:textSize="20sp"
+        android:gravity="center"
         android:textColor="@color/primary_color_dark"
         android:textStyle="bold"
         android:fontFamily="serif-monospace"
