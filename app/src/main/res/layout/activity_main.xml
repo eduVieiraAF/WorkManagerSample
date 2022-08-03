@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/btnOneTimeRequest"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_margin="16dp"
         android:text="One time request"
@@ -33,6 +33,21 @@
         app:layout_constraintTop_toBottomOf="@id/btnOneTimeRequest"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnPeriodicRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:text="Periodic request"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvOneTimeRequest"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
